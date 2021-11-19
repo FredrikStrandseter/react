@@ -1,11 +1,7 @@
 import React from "react";
 import { AiOutlineUser, AiOutlineSearch } from "react-icons/ai";
 import { Link } from "react-router-dom";
-/* import { Component } from "react"; */
-/* import Content from "./Components/Content";
-import Shop from "./Components/Shop";
-import liked from "./Components/liked";
- */
+
 const Header = () => {
   return (
     <>
@@ -19,6 +15,7 @@ const Header = () => {
             >
               <img className="w-32" src="/Hvitnetshop.png" alt="" />
             </Link>
+
             {/* Søkefelt */}
             <div className="relative flex items-center transition transform duration-300 ease-out hover:scale-105 ">
               <input
@@ -28,14 +25,17 @@ const Header = () => {
               />
               <AiOutlineSearch className="text-gray-800 text-2xl absolute right-2" />
             </div>
+            {/* Profil-ikon */}
             <div className="">
               <AiOutlineUser className="text-white w-7 h-7 ml-18 transition transform duration-300 ease-out hover:scale-110" />
             </div>
           </div>
         </div>
+
         {/* Bottom header */}
         <div className="bg-gray-900 opacity-80 h-11 flex">
           <div className="flex mx-auto w-4/5 text-white self-center space-x-20">
+            {/* React-router-dom */}
             <Link
               to="/"
               className="transition transform duration-300 ease-out hover:scale-110"
