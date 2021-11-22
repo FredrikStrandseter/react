@@ -1,6 +1,6 @@
 import React from "react";
 
-function Content() {
+function Home() {
   return (
     <di className="bg-gray-50">
       <div className=" w-4/5 mx-auto mt-20">
@@ -19,4 +19,4 @@ function Content() {
   );
 }
 
-export default Content;
+export default Home;

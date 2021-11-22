@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <>
       {/* Top header */}
-      <div className="fixed top-0 z-50 overflow-hidden w-full">
+      <div className="fixed top-0 w-full">
         <div className="bg-gray-800 h-16">
           <div className="flex items-center h-full w-4/5 mx-auto justify-between">
             <Link
