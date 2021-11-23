@@ -11,8 +11,34 @@ function Home() {
             alt=""
           />
         </div>
-        <div className="mt-20 text-3xl text-transform: capitalize">
-          <p>to be continued...</p>
+        <div className="mt-20 text-transform: capitalize mb-5">
+          <p className="text-5xl">Categories</p>
+        </div>
+        <div className="flex justify-around">
+          <img
+            className="mt-8 rounded-md mb-10"
+            width={300}
+            src="/clothes net.shop.jpg"
+            alt=""
+          />
+          <img
+            className="mt-8 rounded-md mb-10"
+            width={300}
+            src="/electronics net.shop.jpg"
+            alt=""
+          />
+          <img
+            className="mt-8 rounded-md mb-10"
+            width={300}
+            src="/tools net.shop.jpg"
+            alt=""
+          />
+          <img
+            className="mt-8 rounded-md mb-10"
+            width={300}
+            src="/workout net.shop.jpg"
+            alt=""
+          />
         </div>
       </div>
     </di>
