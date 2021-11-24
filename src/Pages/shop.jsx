@@ -19,7 +19,9 @@ const Shop = () => {
         </div>
       </div>
       <div>
-        <div>{activeMenu === "menu1" && <p>Speil</p>}</div>
+        <div>
+          {activeMenu === "menu1" && <p className="font-extrabold">Speil</p>}
+        </div>
       </div>
       <div>{activeMenu === "menu2" && <p>Egg</p>}</div>
     </div>

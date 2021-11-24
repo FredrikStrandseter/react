@@ -14,27 +14,27 @@ function Home() {
         <div className="mt-20 text-transform: capitalize mb-5">
           <p className="text-5xl">Categories</p>
         </div>
-        <div style={{ display: "flex", justifyContent: "space-between" }}>
+        <div className="flex justify-between">
           <img
-            className="mt-8 rounded-md mb-10"
+            className="mt-8 rounded-md mb-10 transition transform duration-300 ease-out hover:scale-105"
             width={300}
             src="/clothes net.shop.jpg"
             alt=""
           />
           <img
-            className="mt-8 rounded-md mb-10"
+            className="mt-8 rounded-md mb-10 transition transform duration-300 ease-out hover:scale-105"
             width={300}
             src="/electronics net.shop.jpg"
             alt=""
           />
           <img
-            className="mt-8 rounded-md mb-10"
+            className="mt-8 rounded-md mb-10 transition transform duration-300 ease-out hover:scale-105"
             width={300}
             src="/tools net.shop.jpg"
             alt=""
           />
           <img
-            className="mt-8 rounded-md mb-10"
+            className="mt-8 rounded-md mb-10 transition transform duration-300 ease-out hover:scale-105"
             width={300}
             src="/workout net.shop.jpg"
             alt=""

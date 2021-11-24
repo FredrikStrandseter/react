@@ -44,7 +44,7 @@ const Header = () => {
             </Link>
             <Link
               to="/shop"
-              className="transition transform duration-300 ease-out hover:scale-110, underline"
+              className="transition transform duration-300 ease-out hover:scale-110"
             >
               Shop
             </Link>
